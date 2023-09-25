@@ -1,0 +1,36 @@
+{
+  "name": "day_gone_be",
+  "version": "1.0.0",
+  "description": "back end scheduler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "install_dep": "npm install axios body-parser concurrently cors dotenv express helmet heroku jest knex knex-cleaner morgan multer node nodemon sqlite3 supertest",
+    "install_secure": "npm install bcryptjs jsonwebtoken",
+    "deps": "npm run install_dep && npm run install_secure"
+  },
+  "author": "K Semenza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "heroku": "^8.4.3",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^2.5.1",
+    "knex-cleaner": "^1.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "sqlite3": "^5.1.6",
+    "supertest": "^6.3.3"
+  }
+}

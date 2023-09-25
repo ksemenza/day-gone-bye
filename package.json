@@ -1,0 +1,19 @@
+{
+  "name": "day_gone_by",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GTP Consulting",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksemenza/day-gone-bye.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ksemenza/day-gone-bye/issues"
+  },
+  "homepage": "https://github.com/ksemenza/day-gone-bye#readme",
+  "description": ""
+}
